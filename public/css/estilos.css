@@ -1,0 +1,20 @@
+#campoTexto {
+  font-size: 25px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  border: solid 3px black;
+}
+
+.campo-disabled {
+  background-color: lightgray;
+}
+
+.texto {
+  font-size: 25px;
+  text-align: left;
+}
+
+.icons {
+  vertical-align: middle;
+}

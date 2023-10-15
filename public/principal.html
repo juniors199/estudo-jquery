@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Alura Typer</title>
+    <script src="/public/js/jquery.js"></script>
+    <script src="/public/main.js"></script>
+    <link rel="stylesheet" href="css/libs/materialize.min.css" />
+    <link rel="stylesheet" href="css/libs/google-fonts.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="center">Alura Typer</h1>
+
+      <p class="texto center" value="5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores in
+        quis aperiam similique, culpa nesciunt saepe quos maxime et omnis
+        delectus veniam incidunt. Quo dolor voluptatem sequi ducimus esse animi?
+      </p>
+
+      <ul class="informacoes center">
+        <li>
+          <i class="small material-icons icons">description</i>
+          <span id="tamanhoFrase">5</span> palavras
+        </li>
+        <li>
+          <i class="small material-icons icons">query_builder</i>
+          <span class="timer">30</span> segundos
+        </li>
+      </ul>
+
+      <textarea
+        name="campoTexto"
+        id="campoTexto"
+        cols="100"
+        rows="10"
+      ></textarea>
+
+      <div class="buttons">
+        <a
+          type="button"
+          id="btn-reiniciar"
+          class="btn-reiniciar btn-floating btn-large waves-effect waves-light red"
+        >
+          <i class="material-icons">restore</i>
+        </a>
+      </div>
+
+      <ul class="center">
+        <li><span id="contadorCaracteres">0</span> Caracteres</li>
+        <li><span id="contadorPalavras">0</span> Palavras</li>
+      </ul>
+    </div>
+  </body>
+</html>
